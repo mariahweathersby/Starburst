@@ -1,0 +1,27 @@
+@import '../../node_modules/normalize.css/normalize.css';
+@import './media.scss';
+@import './base.scss';
+@import './fonts.scss';
+
+// custom styles
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(#FEFAA1, white);
+}
+
+
+
+a {
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+
+  img {
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
